@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/new_file2.css" />
+		<link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css" />
+		
+	</head>
+	<body>
+		<div class="M_idx_loading">
+			<div class="loading">
+				<audio id="play" src="musicSrc/222.mov" autoplay="autoplay"></audio>
+				<div class="disk-wrap">
+					<img id="crankshaft" src="img/crankshaft-wy.png" alt="">
+					<img id="disc" src="img/disc-wy.png" alt="">
+					<img id="light" src="img/light-wy.png" alt="">
+					<img id="loadTitle"  src="img/loadTitle-wy.png">
+				</div>
+				
+			</div>
+		</div>
+		<div class="wrap clearfix">
+			<div class="content_l">
+				<!--logo-->
+				<div id="logo" class="logo_box"><a href="javascript:;" class="logo"></a></div>
+				<!--功能栏-->
+				<div class="M_idx_menu">
+					<ul id="menu-ul" class="menu-ul">
+						<li>
+							<span>歌手</span>
+							<div class="musiclist">
+								<p singer='0'>全部</p>
+								<p singer='4'>华语</p>
+								<p singer='5'>欧美</p>
+								<p singer='1'>男歌手</p>
+								<p singer='2'>女歌手</p>
+								<p singer='3'>组合</p>
+							</div>
+						</li>
+						<li id="tv"><span>电台</span></li>
+						<li id="Ranking"><span>排行榜</span></li>
+						<li>
+							<span>分类歌单</span>
+							<div class="musiclist">
+								<p>我喜欢</p>
+								<p>我的歌单</p>
+							</div>
+						</li>
+					</ul>
+					<!-- 播放器 -->
+					<!-- <div class="M_idx_audioPlayer">
+						<audio id="audio-wy" src="" loop="loop"></audio>
+						<div id="musicName-wy">
+							<span></span>
+						</div>
+						<div id="contro-wy">
+							<img id="prev-wy" src="img/prev-wy.png" alt="">
+							<img id="play-wy" src="img/play-wy.png" alt="">
+							<img id="next-wy" src="img/next-wy.png" alt="">
+						</div>
+					</div> -->
+					
+					<div class="M_idx_audioPlayer">
+        <audio id="audio-wy" src="" loop="loop"></audio>
+        <div id="musicName-wy">
+            <span></span>
+            <span></span>
+        </div>
+        <div id="contro-wy">
+            <img id="prev-wy" src="img/prev-wy.png" alt="">
+            <img id="play-wy" src="img/play-wy.png" alt="">
+            <img id="next-wy" src="img/next-wy.png" alt="">
+        </div>
+    </div>
+					
+
+				</div>
+			</div>
+			
+			<div id="content_r" class="content_r">
+				<div id="contntList" class="contntList">
+					<!-- 专辑图文列表 start -->
+					<div class="M_idx_imgList" style="display: block;">
+						<ul class="box_ul clearfix">
+							<li>
+								<div class="imgBox">
+									<div class="move"></div>
+									<a href="javascript:;" class="dicsImg">
+										<img src="img/head.png" class="disc"/>
+										<span class="m-name">奋斗史</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="imgBox">
+									<div class="move"></div>
+									<a href="javascript:;" class="dicsImg">
+										<img src="img/_temp/i_1.jpg" class="disc"/>
+										<span class="m-name">奋斗史</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="imgBox">
+									<div class="move"></div>
+									<a href="javascript:;" class="dicsImg">
+										<img src="img/head.png" class="disc"/>
+										<span class="m-name">奋斗史</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="imgBox">
+									<div class="move"></div>
+									<a href="javascript:;" class="dicsImg">
+										<img src="img/_temp/i_1.jpg" class="disc"/>
+										<span class="m-name">奋斗史</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="imgBox">
+									<div class="move"></div>
+									<a href="javascript:;" class="dicsImg">
+										<img src="img/head.png" class="disc"/>
+										<span class="m-name">奋斗史奋斗史奋斗史奋斗史奋斗史</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="imgBox">
+									<div class="move"></div>
+									<a href="javascript:;" class="dicsImg">
+										<img src="img/head.png" class="disc"/>
+										<span class="m-name">奋斗史</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="imgBox">
+									<div class="move"></div>
+									<a href="javascript:;" class="dicsImg">
+										<img src="img/head.png" class="disc"/>
+										<span class="m-name">奋斗史</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="imgBox">
+									<div class="move"></div>
+									<a href="javascript:;" class="dicsImg">
+										<img src="img/head.png" class="disc"/>
+										<span class="m-name">奋斗史</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="imgBox">
+									<div class="move"></div>
+									<a href="javascript:;" class="dicsImg">
+										<img src="img/head.png" class="disc"/>
+										<span class="m-name">奋斗史</span>
+									</a>
+								</div>
+							</li>
+							
+						</ul>
+					</div>
+					<!-- 专辑图文列表 ends -->
+					<!-- 歌手图文列表 start -->
+					<div class="M_idx_singers" style="display: block;">
+						<ul class="singerLst clearfix">
+							<li>
+								<a href="#">
+									<img src="img/_temp/i_3.jpg" />
+									<span>林俊杰</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/_temp/i_1.jpg" />
+									<span>林俊杰</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/_temp/i_3.jpg" />
+									<span>林俊杰林俊杰林俊杰林俊杰林俊杰</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/_temp/i_3.jpg" />
+									<span>林俊杰</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/_temp/i_3.jpg" />
+									<span>林俊杰</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/_temp/i_3.jpg" />
+									<span>林俊杰</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/_temp/i_3.jpg" />
+									<span>林俊杰</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/_temp/i_3.jpg" />
+									<span>林俊杰</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/_temp/i_3.jpg" />
+									<span>林俊杰</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/_temp/i_3.jpg" />
+									<span>林俊杰</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/_temp/i_3.jpg" />
+									<span>林俊杰</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/_temp/i_3.jpg" />
+									<span>林俊杰</span>
+								</a>
+							</li>
+						</ul>
+
+					</div>
+					<!-- 歌手图文列表 ends -->
+					<!-- 收藏和歌单列表 start -->
+					<ul class="tion_ul clearfix" style="display: none;">
+						<li>
+							<div class="num">1</div>
+							<div class="the">
+								<span>信仰(Live)</span>
+								<div class="icon">
+									<img src="img/播放.png" alt="" />
+									<img src="img/删除.png" alt="" />
+								</div>
+
+							</div>
+							<div class="name"><span>张信哲</span></div>
+							<div class="Album"><span>超强音浪 跨年</span></div>
+							<div class="often"><span>01:43</span></div>
+						</li>
+						<li>
+							<div class="num">2</div>
+							<div class="the">
+								<span>海阔天空 (Live)  </span>
+								<div class="icon">
+									<img src="img/播放.png" alt="" />
+									<img src="img/删除.png" alt="" />
+								</div>
+							</div>
+							<div class="name"><span>信</span></div>
+							<div class="Album"><span>超强音浪 跨年</span></div>
+							<div class="often"><span>01:43</span></div>
+						</li>
+						<li>
+							<div class="num">3</div>
+							<div class="the">
+								<span>黄昏 (Live)  </span>
+								<div class="icon">
+									<img src="img/播放.png" alt="" />
+									<img src="img/删除.png" alt="" />
+								</div>
+							</div>
+							<div class="name"><span>周传雄</span></div>
+							<div class="Album"><span>超强音浪 跨年</span></div>
+							<div class="often"><span>01:43</span></div>
+						</li>
+						<li>
+							<div class="num">1</div>
+							<div class="the">
+								<span>夜夜夜夜 (Live) </span>
+								<div class="icon">
+									<img src="img/播放.png" alt="" />
+									<img src="img/删除.png" alt="" />
+								</div>
+
+							</div>
+							<div class="name"><span>齐秦</span></div>
+							<div class="Album"><span>超强音浪 跨年</span></div>
+							<div class="often"><span>01:43</span></div>
+						</li>
+						<li>
+							<div class="num">4</div>
+							<div class="the">
+								<span>在他乡 (Live) </span>
+								<div class="icon">
+									<img src="img/播放.png" alt="" />
+									<img src="img/删除.png" alt="" />
+								</div>
+
+							</div>
+							<div class="name"><span>水木年华</span></div>
+							<div class="Album"><span>超强音浪 跨年</span></div>
+							<div class="often"><span>01:43</span></div>
+						</li>
+						<li>
+							<div class="num">5</div>
+							<div class="the">
+								<span>没离开过 (Live)  </span>
+								<div class="icon">
+									<img src="img/播放.png" alt="" />
+									<img src="img/删除.png" alt="" />
+								</div>
+
+							</div>
+							<div class="name"><span>沙宝亮</span></div>
+							<div class="Album"><span>超强音浪 跨年</span></div>
+							<div class="often"><span>01:43</span></div>
+						</li>
+						<li>
+							<div class="num">6</div>
+							<div class="the">
+								<span>Still Loving You (Live) </span>
+								<div class="icon">
+									<img src="img/播放.png" alt="" />
+									<img src="img/删除.png" alt="" />
+								</div>
+
+							</div>
+							<div class="name"><span>林志炫</span></div>
+							<div class="Album"><span>超强音浪 跨年</span></div>
+							<div class="often"><span>01:43</span></div>
+						</li>
+						<li>
+							<div class="num">7</div>
+							<div class="the">
+								<span>轻轻的告诉你 (Live)</span>
+								<div class="icon">
+									<img src="img/播放.png" alt="" />
+									<img src="img/删除.png" alt="" />
+								</div>
+
+							</div>
+							<div class="name"><span>杨钰莹</span></div>
+							<div class="Album"><span>超强音浪 跨年</span></div>
+							<div class="often"><span>01:43</span></div>
+						</li>
+							<li>
+							<div class="num">8</div>
+							<div class="the">
+								<span>友情岁月 (Live) </span>
+								<div class="icon">
+									<img src="img/播放.png" alt="" />
+									<img src="img/删除.png" alt="" />
+								</div>
+
+							</div>
+							<div class="name"><span>张信哲</span></div>
+							<div class="Album"><span>超强音浪 跨年</span></div>
+							<div class="often"><span>01:43</span></div>
+						</li>
+						<li>
+							<div class="num">1</div>
+							<div class="the">
+								<span>信仰(Live)</span>
+								<div class="icon">
+									<img src="img/播放.png" alt="" />
+									<img src="img/删除.png" alt="" />
+								</div>
+
+							</div>
+							<div class="name"><span>张信哲</span></div>
+							<div class="Album"><span>超强音浪 跨年</span></div>
+							<div class="often"><span>01:43</span></div>
+						</li>
+						<li>
+							<div class="num">2</div>
+							<div class="the">
+								<span>海阔天空 (Live)  </span>
+								<div class="icon">
+									<img src="img/播放.png" alt="" />
+									<img src="img/删除.png" alt="" />
+								</div>
+
+							</div>
+							<div class="name"><span>信</span></div>
+							<div class="Album"><span>超强音浪 跨年</span></div>
+							<div class="often"><span>01:43</span></div>
+						</li>
+						<li>
+							<div class="num">3</div>
+							<div class="the">
+								<span>黄昏 (Live)  </span>
+								<div class="icon">
+									<img src="img/播放.png" alt="" />
+									<img src="img/删除.png" alt="" />
+								</div>
+
+							</div>
+							<div class="name"><span>周传雄</span></div>
+							<div class="Album"><span>超强音浪 跨年</span></div>
+							<div class="often"><span>01:43</span></div>
+						</li>
+						<li>
+							<div class="num">1</div>
+							<div class="the">
+								<span>夜夜夜夜 (Live) </span>
+								<div class="icon">
+									<img src="img/播放.png" alt="" />
+									<img src="img/删除.png" alt="" />
+								</div>
+
+							</div>
+							<div class="name"><span>齐秦</span></div>
+							<div class="Album"><span>超强音浪 跨年</span></div>
+							<div class="often"><span>01:43</span></div>
+						</li>
+						<li>
+							<div class="num">4</div>
+							<div class="the">
+								<span>在他乡 (Live) </span>
+								<div class="icon">
+									<img src="img/播放.png" alt="" />
+									<img src="img/删除.png" alt="" />
+								</div>
+
+							</div>
+							<div class="name"><span>水木年华</span></div>
+							<div class="Album"><span>超强音浪 跨年</span></div>
+							<div class="often"><span>01:43</span></div>
+						</li>
+						<li>
+							<div class="num">5</div>
+							<div class="the">
+								<span>没离开过 (Live)  </span>
+								<div class="icon">
+									<img src="img/播放.png" alt="" />
+									<img src="img/删除.png" alt="" />
+								</div>
+
+							</div>
+							<div class="name"><span>沙宝亮</span></div>
+							<div class="Album"><span>超强音浪 跨年</span></div>
+							<div class="often"><span>01:43</span></div>
+						</li>
+						<li>
+							<div class="num">6</div>
+							<div class="the">
+								<span>Still Loving You (Live) </span>
+								<div class="icon">
+									<img src="img/播放.png" alt="" />
+									<img src="img/删除.png" alt="" />
+								</div>
+
+							</div>
+							<div class="name"><span>林志炫</span></div>
+							<div class="Album"><span>超强音浪 跨年</span></div>
+							<div class="often"><span>01:43</span></div>
+						</li>
+						<li>
+							<div class="num">7</div>
+							<div class="the">
+								<span>轻轻的告诉你 (Live)</span>
+								<div class="icon">
+									<img src="img/播放.png" alt="" />
+									<img src="img/删除.png" alt="" />
+								</div>
+
+							</div>
+							<div class="name"><span>杨钰莹</span></div>
+							<div class="Album"><span>超强音浪 跨年</span></div>
+							<div class="often"><span>01:43</span></div>
+						</li>
+							<li>
+							<div class="num">8</div>
+							<div class="the">
+								<span>友情岁月 (Live) </span>
+								<div class="icon">
+									<img src="img/播放.png" alt="" />
+									<img src="img/删除.png" alt="" />
+								</div>
+
+							</div>
+							<div class="name"><span>张信哲</span></div>
+							<div class="Album"><span>超强音浪 跨年</span></div>
+							<div class="often"><span>01:43</span></div>
+						</li>
+						<li>
+							<div class="num">1</div>
+							<div class="the">
+								<span>信仰(Live)</span>
+								<div class="icon">
+									<img src="img/播放.png" alt="" />
+									<img src="img/删除.png" alt="" />
+								</div>
+
+							</div>
+							<div class="name"><span>张信哲</span></div>
+							<div class="Album"><span>超强音浪 跨年</span></div>
+							<div class="often"><span>01:43</span></div>
+						</li>
+					</ul>
+					<!-- 收藏和歌单列表 ends -->
+				</div>
+			</div>
+			<!--iframe-->
+			<!-- <iframe id="ifra" src="http://www.w3school.com.cn/tags/att_iframe_src.asp" frameborder="1"></iframe> -->
+			<div id = "ifra">
+				<!-- <div id="M_dtl_scrollBody">
+					<div id="M_dtl_scrollBlock">					
+					</div>
+				</div> -->
+				<div id="M_dtl_bc"></div>
+				<div class="dtl_mask"></div>
+				<div id="M_dtl_box">
+					<div class="M_dtl_tcc">
+						<div class="M_dtl_pup"></div>
+					</div>
+					<!--背景图片
+					-->
+					
+					<div id="M_dtl_head" class="clearfix">
+						<div id="M_dtl_head_left">
+							<div id="M_dtl_head_left_1">
+								<img src="img/logo2.png"/>
+							</div>
+						</div>
+						<div id="M_dtl_head_right" >
+							<h2>怀旧</h2>
+							<h3>后来才发现，有些老歌真是好听到哭</h3>
+							<ul class="M_dtl_ul">
+								<li class="li1"><span>标签：</span><span></span></li>
+								<li><span>播放量：</span><span></span></li>
+								<li><span>收藏量：</span><span></span></li>
+							</ul>
+							<div id="M_dtl_footer">
+								<div class="M_dtl_bf">
+									<img src="./img/111111.png" />
+									<span>播放全部</span>
+								</div>
+								<div class="M_dtl_fen">
+									<img src="img/xing.png"/>
+									<span>分享</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<section id="M_dtl_section" class="clearfix">					
+						<ul class="M_dtl_tion_ul" class="clearfix">
+							<li class="M_dtl_nav">
+								<div class="M_dtl_num"></div>
+								<div class="M_dtl_the"><span>歌曲</span></div>					
+								<div class="M_dtl_name"><span>歌手</span></div>
+								<div class="M_dtl_Album"><span>专辑</span></div>
+								<div class="M_dtl_often"><span>时长</span></div>
+							</li>	
+						</ul>
+						<div id="M_dtl_brief" class="clearfix">
+							<div class="M_dtl_jj"><span>简介</span></div>
+							<div id="M_dtl_text">
+								<span>
+								谁执笔但记情成卷，只空忆此去经年。
+								一首怀旧老歌，唱出一代人的记忆。
+							</span>
+							</div>					
+							<div class="M_dtl_imgs">
+								<img src="img/sg.png"/>
+								<img src="img/sg.png"/>
+							</div>					
+						</div>
+					</section>
+				</div>
+				<span id="x_close" class="x_close"></span>
+			</div>
+			
+			<!-- 给ifra用的滚动条 -->
+			<div id="M_idx_scrBody1" class="M_idx_scrBody">
+		        <div id="scrlBlock1" class="scrlBlock"></div>
+		    </div>
+		    <!-- 给 content_r用的滚动条 -->
+			<div id="M_idx_scrBody" class="M_idx_scrBody">
+		        <div id="scrlBlock" class="scrlBlock"></div>
+		    </div
+		</div>
+		<script src="js/data.js"></script>	
+		<script src="js/dataMove.js"></script> 
+		<script src="js/scroll.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/album.js"></script> 
+		<script src="js/singerlist.js"></script> 
+		<script src="js/new_file.js"></script> 
+		<script src="js/tween.js"></script>
+
+		<script>
+
+    </script>
+		
+	</body>
+</html>
